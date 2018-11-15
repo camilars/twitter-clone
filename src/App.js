@@ -1,11 +1,31 @@
 import React, { Component } from 'react';
+import Header from './Header.js'
+import Profile from './Profile.js'
+import Follow from './Follow.js'
+import Card from './Card.js'
+import Newcard from './Newcard.js'
+import Trends from './Trends.js'
+import './App.css';
 
 class App extends Component {
 	render () {
 		return (
 			<div className="App">
-				<h1>Twitter Clone</h1>
+				
+				<Header />
+			
+				<Profile />
+			
+				<Newcard />
+				
+				<Card />
+				
+				<Trends />
+			
+				<Follow />
+
 			</div>
+
 		);
 	}
 }
